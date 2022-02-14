@@ -20,15 +20,17 @@ export default function Home() {
    const [activeProjectFilters, setActiveProjectFilters] = useState(new Set());
 
    useEffect(() => {
+      // TODO: change picture
       fetch("data/about.json").then((res) =>
-         res.json().then((r) => {
-            setAbout(r);
+         res.json().then((data) => {
+            setAbout(data);
          })
       );
+
       fetch("data/skills.json").then((res) => {
-         res.json().then((s) =>
+         res.json().then((data) =>
             setSkills(
-               s.skills.map((s) => {
+               data.skills.map((s) => {
                   return (
                      <div>
                         <Skill
@@ -42,6 +44,7 @@ export default function Home() {
             )
          );
       });
+
       fetch("data/knowledge.json").then((res) => {
          res.json().then((s) =>
             setKnowledge(
@@ -58,6 +61,7 @@ export default function Home() {
             )
          );
       });
+
       fetch("data/projects.json").then((res) => {
          res.json().then((s) => {
             let projectFiltersSet = new Set();

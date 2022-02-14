@@ -1,25 +1,13 @@
 [
    {
-      "title": "fasdf",
-      "label": "asfadf",
-      "description": "asf",
-      "image": "",
-      "madeWith": ["Django"],
-      "links": {
-         "github": "",
-         "demo": "",
-         "more": ""
-      }
-   },
-   {
-      "title": "UI / Graphic Designs",
-      "label": "Design",
-      "description": "A compilation of my UI related graphics I designed for my projects on Behance.net",
+      "title": "Collection of games",
+      "label": "Game",
+      "description": "A collection of TUI games",
       "image": "https://i.ibb.co/rMShGtF/Screenshot-20220103-135636.png",
-      "madeWith": ["Figma"],
+      "madeWith": ["C++"],
       "links": {
          "github": "",
-         "demo": "https://www.behance.net/certifiedrehman",
+         "demo": "https://github.com/shawnyu5/game",
          "more": ""
       }
    },

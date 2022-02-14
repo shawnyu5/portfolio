@@ -2,10 +2,6 @@
    "skills": [
       {
          "name": "C++",
-         "percentage": "80"
-      },
-      {
-         "name": "C#",
          "percentage": "70"
       },
       {
@@ -13,12 +9,8 @@
          "percentage": "70"
       },
       {
-         "name": "Rust",
-         "percentage": "70"
-      },
-      {
          "name": "Java",
-         "percentage": "70"
+         "percentage": "75"
       },
       {
          "name": "Javascript",
@@ -34,7 +26,7 @@
       },
       {
          "name": "Python",
-         "percentage": "75"
+         "percentage": "70"
       },
       {
          "name": "SQL",
