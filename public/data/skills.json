@@ -1,44 +1,44 @@
 {
-  "skills": [
-    {
-      "name": "C++",
-      "percentage": "80"
-    },
-    {
-      "name": "C#",
-      "percentage": "70"
-    },
-    {
-      "name": "C",
-      "percentage": "70"
-    },
-    {
-      "name": "Rust",
-      "percentage": "70"
-    },
-    {
-      "name": "Java",
-      "percentage": "70"
-    },
-    {
-      "name": "Javascript",
-      "percentage": "85"
-    },
-    {
-      "name": "TypeScript",
-      "percentage": "80"
-    },
-    {
-      "name": "GoLang",
-      "percentage": "60"
-    },
-    {
-      "name": "Python",
-      "percentage": "75"
-    },
-    {
-      "name": "SQL",
-      "percentage": "70"
-    }
-  ]
+   "skills": [
+      {
+         "name": "C++",
+         "percentage": "80"
+      },
+      {
+         "name": "C#",
+         "percentage": "70"
+      },
+      {
+         "name": "C",
+         "percentage": "70"
+      },
+      {
+         "name": "Rust",
+         "percentage": "70"
+      },
+      {
+         "name": "Java",
+         "percentage": "70"
+      },
+      {
+         "name": "Javascript",
+         "percentage": "85"
+      },
+      {
+         "name": "TypeScript",
+         "percentage": "80"
+      },
+      {
+         "name": "GoLang",
+         "percentage": "60"
+      },
+      {
+         "name": "Python",
+         "percentage": "75"
+      },
+      {
+         "name": "SQL",
+         "percentage": "70"
+      }
+   ]
 }

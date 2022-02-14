@@ -1,4 +1,5 @@
 # Ahmadz.ai
+
 <p align="center">
   <a href="http://www.ahmadz.ai"><img src="https://img.shields.io/badge/Live-Demo-blueviolet?style=flat-square"></a>
 </p>
@@ -16,14 +17,17 @@ REACT_APP_USER_ID //Your emailJs user ID
 ```
 
 ## Adding Projects On-Site via Github OAuth
+
 Create a new Github App in https://github.com/settings/apps
 Set the following:
-- GitHub App name (The name of your website, I set mine to `Ahmadzai's Portfolio`)
-- Homepage URL (The address of your website, I set mine to `https://ahmadz.ai`)
-- Callback URL (Set this to `homepageURL + /php/github.php`, I set mine to `https://ahmadz.ai/php/github.php`)
+
+-  GitHub App name (The name of your website, I set mine to `Ahmadzai's Portfolio`)
+-  Homepage URL (The address of your website, I set mine to `https://ahmadz.ai`)
+-  Callback URL (Set this to `homepageURL + /php/github.php`, I set mine to `https://ahmadz.ai/php/github.php`)
 
 Rename the `public/auth/variables.sample` file to `variables.php` and fill with your github oauth variables (You can get your github ID from https://api.github.com/users/your_username).
 
 ## Screenshots
+
 ![Screenshot](https://i.imgur.com/Ejy5dJx.png)
 ![Screenshot2](https://i.imgur.com/dTPRTJr.png)

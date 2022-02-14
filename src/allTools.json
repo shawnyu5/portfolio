@@ -1,183 +1,183 @@
 {
-  "tools": [
-    {
-      "name": "Access",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/access.svg",
-      "url": "https://www.microsoft.com/en-ca/microsoft-365/access"
-    },
-    {
-      "name": "Angular",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/angular.svg",
-      "url": "https://angular.io/"
-    },
-    {
-      "name": "CMake",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/Cmake.svg",
-      "url": "https://cmake.org/"
-    },
-    {
-      "name": "C#",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/c%23.svg",
-      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
-    },
-    {
-      "name": "C++",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/c%2B%2B.svg",
-      "url": "https://www.cplusplus.com/"
-    },
-    {
-      "name": "C",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/c.svg",
-      "url": "https://en.cppreference.com/w/c/language"
-    },
-    {
-      "name": "Discord",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/discord.svg",
-      "url": "https://www.discord.com/"
-    },
-    {
-      "name": "Docker",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/docker.svg",
-      "url": "https://www.docker.com/"
-    },
-    {
-      "name": "Django",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/django.svg",
-      "url": "https://www.djangoproject.com/"
-    },
-    {
-      "name": "ElasticSearch",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/elasticsearch.svg",
-      "url": "https://www.elastic.co/"
-    },
-    {
-      "name": "Express",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/express.svg",
-      "url": "https://expressjs.com/",
-      "dark": "true"
-    },
-    {
-      "name": "Figma",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/figma.svg",
-      "url": "https://www.figma.com/"
-    },
-    {
-      "name": "Git",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/git.svg",
-      "url": "https://git-scm.com/"
-    },
-    {
-      "name": "Github",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/github.svg",
-      "url": "https://github.com/",
-	"dark": "true"
-    },
-    {
-      "name": "Golang",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/golang.svg",
-      "url": "https://golang.org/"
-    },
-    {
-      "name": "Handlebars",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/handlebars.svg",
-      "url": "https://handlebarsjs.com/",
-      "dark": "true"
-    },
-    {
-      "name": "Java",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/java.svg",
-      "url": "https://www.java.com"
-    },
-    {
-      "name": "Javascript",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/js.svg",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
-    {
-      "name": "Linux",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/ubuntu.svg",
-      "url": "https://ubuntu.com/"
-    },
-    {
-      "name": "MongoDB",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/mongodb.svg",
-      "url": "https://www.mongodb.com/"
-    },
-    {
-      "name": "nginx",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/nginx.svg",
-      "url": "https://www.nginx.com/"
-    },
-    {
-      "name": "OAuth",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/oauth.svg",
-      "url": "https://oauth.net/"
-    },
-    {
-      "name": "NodeJS",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/node.svg",
-      "url": "https://nodejs.org"
-    },
-    {
-      "name": "Oracle SQL",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/oracleSQL.svg",
-      "url": "https://www.oracle.com/ca-en/database/technologies/appdev/sql.html"
-    },
-    {
-      "name": "PHP",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/php.svg",
-      "url": "https://php.net/"
-    },
-    {
-      "name": "PostgreSQL",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/postgreSQL.svg",
-      "url": "https://www.postgresql.org/"
-    },
-    {
-      "name": "Postman",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/postman.svg",
-      "url": "https://www.postman.com/"
-    },
-    {
-      "name": "Python",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/python.svg",
-      "url": "https://www.python.org/"
-    },
-    {
-      "name": "React",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/react.svg",
-      "url": "https://reactjs.org"
-    },
-    {
-      "name": "Rust",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/rust.svg",
-      "url": "https://www.rust-lang.org/",
-	"dark": "true"
-    },
-    {
-      "name": "SDL",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/sdl.svg",
-      "url": "https://www.libsdl.org/"
-    },
-    {
-      "name": "SQLite",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/sqlite.svg",
-      "url": "https://www.sqlite.org/"
-    },
-    {
-      "name": "TypeScript",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/ts.svg",
-      "url": "https://www.typescriptlang.org"
-    },
-    {
-      "name": "Unreal",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/unreal.svg",
-      "url": "https://www.unrealengine.com"
-    },
-    {
-      "name": "VBA",
-      "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/vba.svg",
-      "url": "https://docs.microsoft.com/en-us/office/vba/api/overview/"
-    }
-  ]
+   "tools": [
+      {
+         "name": "Access",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/access.svg",
+         "url": "https://www.microsoft.com/en-ca/microsoft-365/access"
+      },
+      {
+         "name": "Angular",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/angular.svg",
+         "url": "https://angular.io/"
+      },
+      {
+         "name": "CMake",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/Cmake.svg",
+         "url": "https://cmake.org/"
+      },
+      {
+         "name": "C#",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/c%23.svg",
+         "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+      },
+      {
+         "name": "C++",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/c%2B%2B.svg",
+         "url": "https://www.cplusplus.com/"
+      },
+      {
+         "name": "C",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/c.svg",
+         "url": "https://en.cppreference.com/w/c/language"
+      },
+      {
+         "name": "Discord",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/discord.svg",
+         "url": "https://www.discord.com/"
+      },
+      {
+         "name": "Docker",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/docker.svg",
+         "url": "https://www.docker.com/"
+      },
+      {
+         "name": "Django",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/django.svg",
+         "url": "https://www.djangoproject.com/"
+      },
+      {
+         "name": "ElasticSearch",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/elasticsearch.svg",
+         "url": "https://www.elastic.co/"
+      },
+      {
+         "name": "Express",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/express.svg",
+         "url": "https://expressjs.com/",
+         "dark": "true"
+      },
+      {
+         "name": "Figma",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/figma.svg",
+         "url": "https://www.figma.com/"
+      },
+      {
+         "name": "Git",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/git.svg",
+         "url": "https://git-scm.com/"
+      },
+      {
+         "name": "Github",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/github.svg",
+         "url": "https://github.com/",
+         "dark": "true"
+      },
+      {
+         "name": "Golang",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/golang.svg",
+         "url": "https://golang.org/"
+      },
+      {
+         "name": "Handlebars",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/handlebars.svg",
+         "url": "https://handlebarsjs.com/",
+         "dark": "true"
+      },
+      {
+         "name": "Java",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/java.svg",
+         "url": "https://www.java.com"
+      },
+      {
+         "name": "Javascript",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/js.svg",
+         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+         "name": "Linux",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/ubuntu.svg",
+         "url": "https://ubuntu.com/"
+      },
+      {
+         "name": "MongoDB",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/mongodb.svg",
+         "url": "https://www.mongodb.com/"
+      },
+      {
+         "name": "nginx",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/nginx.svg",
+         "url": "https://www.nginx.com/"
+      },
+      {
+         "name": "OAuth",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/oauth.svg",
+         "url": "https://oauth.net/"
+      },
+      {
+         "name": "NodeJS",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/node.svg",
+         "url": "https://nodejs.org"
+      },
+      {
+         "name": "Oracle SQL",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/oracleSQL.svg",
+         "url": "https://www.oracle.com/ca-en/database/technologies/appdev/sql.html"
+      },
+      {
+         "name": "PHP",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/php.svg",
+         "url": "https://php.net/"
+      },
+      {
+         "name": "PostgreSQL",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/postgreSQL.svg",
+         "url": "https://www.postgresql.org/"
+      },
+      {
+         "name": "Postman",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/postman.svg",
+         "url": "https://www.postman.com/"
+      },
+      {
+         "name": "Python",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/python.svg",
+         "url": "https://www.python.org/"
+      },
+      {
+         "name": "React",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/react.svg",
+         "url": "https://reactjs.org"
+      },
+      {
+         "name": "Rust",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/rust.svg",
+         "url": "https://www.rust-lang.org/",
+         "dark": "true"
+      },
+      {
+         "name": "SDL",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/sdl.svg",
+         "url": "https://www.libsdl.org/"
+      },
+      {
+         "name": "SQLite",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/sqlite.svg",
+         "url": "https://www.sqlite.org/"
+      },
+      {
+         "name": "TypeScript",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/ts.svg",
+         "url": "https://www.typescriptlang.org"
+      },
+      {
+         "name": "Unreal",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/unreal.svg",
+         "url": "https://www.unrealengine.com"
+      },
+      {
+         "name": "VBA",
+         "imageURL": "https://raw.githubusercontent.com/certifiedrehman/certifiedrehman/main/icons/vba.svg",
+         "url": "https://docs.microsoft.com/en-us/office/vba/api/overview/"
+      }
+   ]
 }

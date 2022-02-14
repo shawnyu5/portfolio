@@ -1,25 +1,25 @@
 .posts {
-    border: 1px solid var(--border-color);
-    width: 100%;
-    max-width: 400px;
+   border: 1px solid var(--border-color);
+   width: 100%;
+   max-width: 400px;
 }
 
 .posts h2 {
-    padding: 0 20px 20px 20px;
-    border-bottom: 1px solid var(--border-color);
+   padding: 0 20px 20px 20px;
+   border-bottom: 1px solid var(--border-color);
 }
 .post-container {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
 }
 .post {
-    padding: 0 20px;
+   padding: 0 20px;
 }
 .post * {
-    color: rgb(161, 161, 161);
+   color: rgb(161, 161, 161);
 }
 
 .post:hover * {
-    color: #ffffff;
+   color: #ffffff;
 }

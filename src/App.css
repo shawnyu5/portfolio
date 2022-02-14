@@ -1,65 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,900&display=swap");
 
 html {
-  scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
-*{
-  font-family: Roboto, serif;
-  text-decoration: none;
-  color: #dcdcdc;
-  box-sizing: border-box;
+* {
+   font-family: Roboto, serif;
+   text-decoration: none;
+   color: #dcdcdc;
+   box-sizing: border-box;
 }
 
 .App {
-  text-align: center;
+   text-align: center;
 }
 
 .App-link {
-  color: #61dafb;
+   color: #61dafb;
 }
 
 #page {
-  margin-top: 50px;
-  min-height: calc(100vh - 50px); /*50px = size of the navbar*/
-  min-width: 100%;
-  background: black url("background.png") no-repeat fixed;
+   margin-top: 50px;
+   min-height: calc(100vh - 50px); /*50px = size of the navbar*/
+   min-width: 100%;
+   background: black url("background.png") no-repeat fixed;
 }
 
 button {
-  display: inline-flex;
-  border: solid 1px var(--border-color);
-  padding: 2px 15px 2px 15px;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  font-weight: 600;
+   display: inline-flex;
+   border: solid 1px var(--border-color);
+   padding: 2px 15px 2px 15px;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   font-weight: 600;
 }
 button * {
-  color: #b4b4b4;
+   color: #b4b4b4;
 }
 button > svg {
-  padding-left: 15px;
+   padding-left: 15px;
 }
 
 button:hover {
-  background-color: #ffffff !important;
-  cursor: pointer;
-  color: black;
+   background-color: #ffffff !important;
+   cursor: pointer;
+   color: black;
 }
 
 button:hover * {
-  color: #000000 !important;
+   color: #000000 !important;
 }
 
 /*Italic Placeholders*/
-::-webkit-input-placeholder { font-style: italic; }
-:-moz-placeholder { font-style: italic; }
-::-moz-placeholder { font-style: italic; }
-:-ms-input-placeholder { font-style: italic; }
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;
+}
+::-moz-placeholder {
+   font-style: italic;
+}
+:-ms-input-placeholder {
+   font-style: italic;
+}
 
 @media only screen and (max-width: 840px) {
-  #page{
-    margin-top: revert;
-  }
+   #page {
+      margin-top: revert;
+   }
 }

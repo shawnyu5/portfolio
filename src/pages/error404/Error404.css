@@ -1,12 +1,12 @@
-#Error404 > h1{
-    margin-bottom: 0;
+#Error404 > h1 {
+   margin-bottom: 0;
 }
 
-#Error404 p{
-    width: auto;
-    display: inline-block;
-    padding: 10px;
-    background-color: #f1f1f1;
-    color: black;
-    font-weight: 600;
+#Error404 p {
+   width: auto;
+   display: inline-block;
+   padding: 10px;
+   background-color: #f1f1f1;
+   color: black;
+   font-weight: 600;
 }

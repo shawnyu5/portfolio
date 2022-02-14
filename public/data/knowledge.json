@@ -1,14 +1,14 @@
 {
-  "knowledge": [
-    {
-      "label": "",
-      "title": "Unreal Engine 4",
-      "text": "I have been using Unreal Engine 4 for about 5 years on and off as a hobbyist, I have interned with a German developer as a game developer using UE4. I am fluent when it comes to Blueprints in UE4, on the C++ side, I am proficient. My most recent side-project, a Diablo-like RPG, forced me to delve into the Gameplay Ability System and recreate the buttery smooth movement system of Diablo 3 in UE4 using Blueprints."
-    },
-    {
-      "label": "",
-      "title": "Full Stack Development",
-      "text": "I couldn't choose if I wanted to do design UIs or plan application architectures, so I chose full-stack. The flexibility and variety of full stack development is just super addicting to me. Some of the new systems I delved into recently are OAuth and ElasticSearch for the Easy Blog project, providing advanced search and a centralized authentication system."
-    }
-  ]
+   "knowledge": [
+      {
+         "label": "",
+         "title": "Unreal Engine 4",
+         "text": "I have been using Unreal Engine 4 for about 5 years on and off as a hobbyist, I have interned with a German developer as a game developer using UE4. I am fluent when it comes to Blueprints in UE4, on the C++ side, I am proficient. My most recent side-project, a Diablo-like RPG, forced me to delve into the Gameplay Ability System and recreate the buttery smooth movement system of Diablo 3 in UE4 using Blueprints."
+      },
+      {
+         "label": "",
+         "title": "Full Stack Development",
+         "text": "I couldn't choose if I wanted to do design UIs or plan application architectures, so I chose full-stack. The flexibility and variety of full stack development is just super addicting to me. Some of the new systems I delved into recently are OAuth and ElasticSearch for the Easy Blog project, providing advanced search and a centralized authentication system."
+      }
+   ]
 }

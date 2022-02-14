@@ -1,184 +1,150 @@
 [
-    {
-        "title": "fasdf",
-        "label": "asfadf",
-        "description": "asf",
-        "image": "",
-        "madeWith": [
-            "Django"
-        ],
-        "links": {
-            "github": "",
-            "demo": "",
-            "more": ""
-        }
-    },
-    {
-        "title": "UI \/ Graphic Designs",
-        "label": "Design",
-        "description": "A compilation of my UI related graphics I designed for my projects on Behance.net",
-        "image": "https:\/\/i.ibb.co\/rMShGtF\/Screenshot-20220103-135636.png",
-        "madeWith": [
-            "Figma"
-        ],
-        "links": {
-            "github": "",
-            "demo": "https:\/\/www.behance.net\/certifiedrehman",
-            "more": ""
-        }
-    },
-    {
-        "title": "Web Pong",
-        "label": "Game",
-        "description": "Written entirely in JavaScript, this classic game is as much fun to recreate as it is to play. I had written a Ping Pong game in C++, this time I wanted to try a web-based approach for compatibility with browsers. Unlike the C++ implementation, this required intercommunication of the 3 layers, HTML, CSS, and JavaScript.",
-        "image": "https:\/\/i.imgur.com\/t8ny1XN.png",
-        "madeWith": [
-            "Javascript",
-            "Linux",
-            "nginx"
-        ],
-        "links": {
-            "github": "https:\/\/github.com\/416rehman\/pong\"",
-            "demo": "https:\/\/www.ahmadz.ai\/pong\/",
-            "more": ""
-        }
-    },
-    {
-        "title": "Easy Blog - A Blogging Platform",
-        "label": "Blog",
-        "description": "Powered by Django, Easy blog was supposed to serve as a simple and easy to use blog for my portfolio. Somehow it ended up being a full-featured blogging platform, allowing anyone to blog with a highly configured WYSYWIG Editor.",
-        "madeWith": [
-            "django",
-            "python",
-            "sqlite",
-            "apache",
-            "nginx",
-            "elasticsearch",
-            "docker"
-        ],
-        "image": "https:\/\/i.imgur.com\/HFiua2j.png",
-        "links": {
-            "github": "https:\/\/github.com\/416rehman\/easy_blog",
-            "demo": "https:\/\/blog.ahmadz.ai\/",
-            "more": "https:\/\/blog.ahmadz.ai\/hello-world\/"
-        }
-    },
-    {
-        "title": "SDL2 - Pong",
-        "label": "Game",
-        "description": "Using Simple DirectMedia Layer (SDL) library to create a a graphical classic Ping Pong game in C++",
-        "madeWith": [
-            "sdl",
-            "c++",
-            "cmake"
-        ],
-        "image": "https:\/\/i.imgur.com\/YOi1NVp.png",
-        "links": {
-            "github": "https:\/\/github.com\/416rehman\/SDL2-Pong",
-            "demo": "https:\/\/github.com\/416rehman\/SDL2-Pong\/releases",
-            "more": "https:\/\/blog.ahmadz.ai\/sdl2-for-clion-and-cmake\/"
-        }
-    },
-    {
-        "title": "IMS - Inventory Management System",
-        "label": "Management",
-        "description": "Built for the military, an off-the-grid offline solution to manage military equipment worth millions of dollars. High level features include: inventory management, tracking, and reporting.",
-        "madeWith": [
-            "access",
-            "vba"
-        ],
-        "image": "https:\/\/i.imgur.com\/DAA9LUE.png",
-        "links": {
-            "github": "",
-            "demo": "",
-            "more": "https:\/\/blog.ahmadz.ai\/managing-military-equipment-by-using-microsoft-access-as-an-ims\/"
-        }
-    },
-    {
-        "title": "Ahmadz.ai",
-        "label": "Portfolio (This Website)",
-        "description": "My portfolio website, built with simplicity and focus on clean UI in mind. Data is read from local json files to mitigate points of failure, resulting in a highly failure-tolerant service.",
-        "madeWith": [
-            "react",
-            "express",
-            "github",
-            "nodejs",
-            "nginx",
-            "oauth",
-            "docker"
-        ],
-        "image": "https:\/\/i.imgur.com\/luKmB1i.png",
-        "links": {
-            "github": "https:\/\/github.com\/certifiedrehman\/ahmadz.ai",
-            "demo": "https:\/\/www.ahmadz.ai\/",
-            "more": ""
-        }
-    },
-    {
-        "title": "Splite",
-        "label": "Bot",
-        "description": "Used by thousands of people daily, Splite is a highly intuitive bot aimed at providing fun and excitement while serving powerful moderation, role \/ emote management, and much more. This project helped me reinforce my knowledge of many core app-building features such as asynchronous API calls, optimization, and UX.",
-        "madeWith": [
-            "discord",
-            "nodejs",
-            "SQLite",
-            "javascript"
-        ],
-        "image": "https:\/\/images.discordapp.net\/avatars\/842244538248593439\/9dad36f652f0c501470d9046f69394b9.png?size=128",
-        "links": {
-            "github": "https:\/\/github.com\/certifiedrehman\/splite",
-            "demo": "https:\/\/discord.com\/oauth2\/authorize?client_id=842244538248593439&permissions=4294438903&scope=bot%20applications.commands",
-            "more": "https:\/\/top.gg\/bot\/842244538248593439"
-        }
-    },
-    {
-        "title": "Assemly Station - OOP Project",
-        "description": "The purpose of this term project was to put my C++ Object Oriented skills to test by developing a simulation of an assembly line with any number of stations.",
-        "label": "School Project",
-        "madeWith": [
-            "c++"
-        ],
-        "image": "",
-        "links": {
-            "github": "https:\/\/github.com\/certifiedrehman\/CPP-AssemblyStation-Project",
-            "demo": "",
-            "more": ""
-        }
-    },
-    {
-        "title": "Basic Auth Web App",
-        "description": "A Simple Basic CRUD App using ExpressJS to serve handlebars views with data from MongoDB, PostgreSQL databases for WEB322 class.",
-        "label": "School Work",
-        "madeWith": [
-            "mongodb",
-            "postgresql",
-            "express",
-            "nodejs",
-            "javascript"
-        ],
-        "image": "",
-        "links": {
-            "github": "https:\/\/github.com\/416rehman\/web322FinalAssignment",
-            "demo": "https:\/\/a3ahmadzai.herokuapp.com\/",
-            "more": ""
-        }
-    },
-    {
-        "title": "Vacay",
-        "label": "School Work",
-        "description": "An introductory full-stack, simple bnb-like web application for course WEB322 in Seneca.",
-        "madeWith": [
-            "Javascript",
-            "Express",
-            "MongoDB",
-            "Handlebars",
-            "nodejs"
-        ],
-        "image": "https:\/\/i.imgur.com\/rCaTQ22.png",
-        "links": {
-            "github": "https:\/\/github.com\/certifiedrehman\/Vacay",
-            "demo": "http:\/\/web322.ahmadz.ai\/",
-            "more": ""
-        }
-    }
+   {
+      "title": "fasdf",
+      "label": "asfadf",
+      "description": "asf",
+      "image": "",
+      "madeWith": ["Django"],
+      "links": {
+         "github": "",
+         "demo": "",
+         "more": ""
+      }
+   },
+   {
+      "title": "UI / Graphic Designs",
+      "label": "Design",
+      "description": "A compilation of my UI related graphics I designed for my projects on Behance.net",
+      "image": "https://i.ibb.co/rMShGtF/Screenshot-20220103-135636.png",
+      "madeWith": ["Figma"],
+      "links": {
+         "github": "",
+         "demo": "https://www.behance.net/certifiedrehman",
+         "more": ""
+      }
+   },
+   {
+      "title": "Web Pong",
+      "label": "Game",
+      "description": "Written entirely in JavaScript, this classic game is as much fun to recreate as it is to play. I had written a Ping Pong game in C++, this time I wanted to try a web-based approach for compatibility with browsers. Unlike the C++ implementation, this required intercommunication of the 3 layers, HTML, CSS, and JavaScript.",
+      "image": "https://i.imgur.com/t8ny1XN.png",
+      "madeWith": ["Javascript", "Linux", "nginx"],
+      "links": {
+         "github": "https://github.com/416rehman/pong\"",
+         "demo": "https://www.ahmadz.ai/pong/",
+         "more": ""
+      }
+   },
+   {
+      "title": "Easy Blog - A Blogging Platform",
+      "label": "Blog",
+      "description": "Powered by Django, Easy blog was supposed to serve as a simple and easy to use blog for my portfolio. Somehow it ended up being a full-featured blogging platform, allowing anyone to blog with a highly configured WYSYWIG Editor.",
+      "madeWith": [
+         "django",
+         "python",
+         "sqlite",
+         "apache",
+         "nginx",
+         "elasticsearch",
+         "docker"
+      ],
+      "image": "https://i.imgur.com/HFiua2j.png",
+      "links": {
+         "github": "https://github.com/416rehman/easy_blog",
+         "demo": "https://blog.ahmadz.ai/",
+         "more": "https://blog.ahmadz.ai/hello-world/"
+      }
+   },
+   {
+      "title": "SDL2 - Pong",
+      "label": "Game",
+      "description": "Using Simple DirectMedia Layer (SDL) library to create a a graphical classic Ping Pong game in C++",
+      "madeWith": ["sdl", "c++", "cmake"],
+      "image": "https://i.imgur.com/YOi1NVp.png",
+      "links": {
+         "github": "https://github.com/416rehman/SDL2-Pong",
+         "demo": "https://github.com/416rehman/SDL2-Pong/releases",
+         "more": "https://blog.ahmadz.ai/sdl2-for-clion-and-cmake/"
+      }
+   },
+   {
+      "title": "IMS - Inventory Management System",
+      "label": "Management",
+      "description": "Built for the military, an off-the-grid offline solution to manage military equipment worth millions of dollars. High level features include: inventory management, tracking, and reporting.",
+      "madeWith": ["access", "vba"],
+      "image": "https://i.imgur.com/DAA9LUE.png",
+      "links": {
+         "github": "",
+         "demo": "",
+         "more": "https://blog.ahmadz.ai/managing-military-equipment-by-using-microsoft-access-as-an-ims/"
+      }
+   },
+   {
+      "title": "Ahmadz.ai",
+      "label": "Portfolio (This Website)",
+      "description": "My portfolio website, built with simplicity and focus on clean UI in mind. Data is read from local json files to mitigate points of failure, resulting in a highly failure-tolerant service.",
+      "madeWith": [
+         "react",
+         "express",
+         "github",
+         "nodejs",
+         "nginx",
+         "oauth",
+         "docker"
+      ],
+      "image": "https://i.imgur.com/luKmB1i.png",
+      "links": {
+         "github": "https://github.com/certifiedrehman/ahmadz.ai",
+         "demo": "https://www.ahmadz.ai/",
+         "more": ""
+      }
+   },
+   {
+      "title": "Splite",
+      "label": "Bot",
+      "description": "Used by thousands of people daily, Splite is a highly intuitive bot aimed at providing fun and excitement while serving powerful moderation, role / emote management, and much more. This project helped me reinforce my knowledge of many core app-building features such as asynchronous API calls, optimization, and UX.",
+      "madeWith": ["discord", "nodejs", "SQLite", "javascript"],
+      "image": "https://images.discordapp.net/avatars/842244538248593439/9dad36f652f0c501470d9046f69394b9.png?size=128",
+      "links": {
+         "github": "https://github.com/certifiedrehman/splite",
+         "demo": "https://discord.com/oauth2/authorize?client_id=842244538248593439&permissions=4294438903&scope=bot%20applications.commands",
+         "more": "https://top.gg/bot/842244538248593439"
+      }
+   },
+   {
+      "title": "Assemly Station - OOP Project",
+      "description": "The purpose of this term project was to put my C++ Object Oriented skills to test by developing a simulation of an assembly line with any number of stations.",
+      "label": "School Project",
+      "madeWith": ["c++"],
+      "image": "",
+      "links": {
+         "github": "https://github.com/certifiedrehman/CPP-AssemblyStation-Project",
+         "demo": "",
+         "more": ""
+      }
+   },
+   {
+      "title": "Basic Auth Web App",
+      "description": "A Simple Basic CRUD App using ExpressJS to serve handlebars views with data from MongoDB, PostgreSQL databases for WEB322 class.",
+      "label": "School Work",
+      "madeWith": ["mongodb", "postgresql", "express", "nodejs", "javascript"],
+      "image": "",
+      "links": {
+         "github": "https://github.com/416rehman/web322FinalAssignment",
+         "demo": "https://a3ahmadzai.herokuapp.com/",
+         "more": ""
+      }
+   },
+   {
+      "title": "Vacay",
+      "label": "School Work",
+      "description": "An introductory full-stack, simple bnb-like web application for course WEB322 in Seneca.",
+      "madeWith": ["Javascript", "Express", "MongoDB", "Handlebars", "nodejs"],
+      "image": "https://i.imgur.com/rCaTQ22.png",
+      "links": {
+         "github": "https://github.com/certifiedrehman/Vacay",
+         "demo": "http://web322.ahmadz.ai/",
+         "more": ""
+      }
+   }
 ]

@@ -1,80 +1,86 @@
 :root {
-    --nav-color: #787878;
-    --nav-color-active: #f1f1f1;
-    --primary-color: #414141;
+   --nav-color: #787878;
+   --nav-color-active: #f1f1f1;
+   --primary-color: #414141;
 }
-a:visited { text-decoration: none; color:var(--nav-color)}
+a:visited {
+   text-decoration: none;
+   color: var(--nav-color);
+}
 a:hover {
-    cursor: pointer;
+   cursor: pointer;
 }
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #000000;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    z-index: 100;
-    border-bottom: solid var(--nav-color) 1px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: #000000;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
+   z-index: 100;
+   border-bottom: solid var(--nav-color) 1px;
 }
 nav * {
-    text-decoration: none;
-    font-weight: bold;
+   text-decoration: none;
+   font-weight: bold;
 }
 
 #links {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    align-items: center;
+   flex-grow: 1;
+   display: flex;
+   flex-direction: row;
+   height: 50px;
+   align-items: center;
 }
 
 nav #links div {
-    padding: 10px 35px;
-    color: var(--nav-color);
+   padding: 10px 35px;
+   color: var(--nav-color);
 }
-#links div:hover {color: var(--nav-color-active);}
+#links div:hover {
+   color: var(--nav-color-active);
+}
 .primary {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    background-color: var(--primary-color);
-    height: 50px;
-    min-width: 100px;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    padding: 0 10px 0 10px;
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   background-color: var(--primary-color);
+   height: 50px;
+   min-width: 100px;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   padding: 0 10px 0 10px;
 }
-.primary:hover, .primary:hover * {
-    background-color: #3d3d3d;
-    color: #ffffff;
+.primary:hover,
+.primary:hover * {
+   background-color: #3d3d3d;
+   color: #ffffff;
 }
 
 #blog > img {
-    padding-left: 5px;
-    height: 30px;
+   padding-left: 5px;
+   height: 30px;
 }
 
 a .active {
-    color: var(--nav-color-active) !important;
+   color: var(--nav-color-active) !important;
 }
 
-
 @media only screen and (max-width: 840px) {
-    #admin > img {
-        filter: brightness(4);
-    }
-    #home, #blog {
-        background-color: black;
-        color: var(--nav-color);
-    }
+   #admin > img {
+      filter: brightness(4);
+   }
+   #home,
+   #blog {
+      background-color: black;
+      color: var(--nav-color);
+   }
 
-    nav #links div {
-        padding: 10px 15px;
-    }
+   nav #links div {
+      padding: 10px 15px;
+   }
 }
