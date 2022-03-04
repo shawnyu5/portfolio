@@ -30,10 +30,15 @@ describe("NavBarComponent", () => {
    });
 
    it("should contain correct element text", () => {
-      let barText = ["Home", "Projects", "Contact"];
+      let barText = ["Home", "Projects"];
       // console.log(htmlELement.textContent);
       let index = 0;
+      expect(debugElement.length).toBeGreaterThan(0);
       debugElement.forEach((element) => {
+         console.log(
+            "(anon)#(anon)#(anon) element.nativeElement.textContent: %s",
+            element.nativeElement.textContent
+         ); // __AUTO_GENERATED_PRINT_VAR__
          expect(element.nativeElement.textContent).toMatch(barText[index]);
          index++;
       });
