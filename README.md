@@ -1,5 +1,7 @@
 # Portfolio
 
+Going to base designs off of [this](https://www.behance.net/gallery/123548237/Portfolio-website?tracking_source=search_projects%7Cportfilio%20website)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server
