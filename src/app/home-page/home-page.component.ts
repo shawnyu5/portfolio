@@ -9,9 +9,11 @@ import { HomePageService } from "./home-page.service";
 })
 export class HomePageComponent implements OnInit {
    aboutMe: string = "";
+   profileImage: string = "";
    constructor(private homePageService: HomePageService) {}
 
    ngOnInit(): void {
       this.aboutMe = this.homePageService.getAboutMe();
+      this.profileImage = this.homePageService.getProfileImage();
    }
 }

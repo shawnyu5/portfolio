@@ -10,4 +10,8 @@ export class HomePageService {
    getAboutMe() {
       return data.aboutMe;
    }
+
+   getProfileImage() {
+      return data.profileImage;
+   }
 }

@@ -10,3 +10,14 @@
   vertical-align: middle;
 }
 
+#profile-picture{
+   width:37%;
+   margin-right:5%;
+   text-align: right;
+   float: right;
+}
+
+#img {
+ width:500px;
+}
+
