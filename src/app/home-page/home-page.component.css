@@ -1,0 +1,12 @@
+#introducing::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: -.10em;
+  margin-right: .25em;
+  width: 25px;
+  height: 2px;
+  background: #3CFF00;
+  vertical-align: middle;
+}
+
