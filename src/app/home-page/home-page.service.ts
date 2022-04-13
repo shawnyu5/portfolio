@@ -7,7 +7,10 @@ import data from "../../../data/homePage.json";
 export class HomePageService {
    constructor() {}
 
-   getAboutMe() {
+   /**
+    * @returns about me text from json
+    */
+   getAboutMe(): string {
       return data.aboutMe;
    }
 
