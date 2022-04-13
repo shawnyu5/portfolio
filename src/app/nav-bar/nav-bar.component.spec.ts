@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from "@angular/core/testing";
 import { DebugElement } from "@angular/core";
 import { NavBarComponent } from "./nav-bar.component";
 import { By } from "@angular/platform-browser";
-import { elementAt } from "rxjs";
+// import { elementAt } from "rxjs";
 
 describe("NavBarComponent", () => {
    let component: NavBarComponent;
@@ -30,15 +30,15 @@ describe("NavBarComponent", () => {
    });
 
    it("should contain correct element text", () => {
-      let barText = ["Home", "Projects"];
+      let barText = ["Home", "Projects", "Contacts"];
       // console.log(htmlELement.textContent);
       let index = 0;
       expect(debugElement.length).toBeGreaterThan(0);
       debugElement.forEach((element) => {
-         console.log(
-            "(anon)#(anon)#(anon) element.nativeElement.textContent: %s",
-            element.nativeElement.textContent
-         ); // __AUTO_GENERATED_PRINT_VAR__
+         // console.log(
+         // "(anon)#(anon)#(anon) element.nativeElement.textContent: %s",
+         // element.nativeElement.textContent
+         // ); // __AUTO_GENERATED_PRINT_VAR__
          expect(element.nativeElement.textContent).toMatch(barText[index]);
          index++;
       });
