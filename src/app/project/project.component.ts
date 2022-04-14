@@ -1,6 +1,7 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, Inject, OnInit } from "@angular/core";
 import IProject from "src/types/project";
 import { ProjectService } from "../project.service";
+import { DOCUMENT } from "@angular/common";
 
 @Component({
    selector: "app-project",
@@ -9,14 +10,17 @@ import { ProjectService } from "../project.service";
 })
 export class ProjectComponent implements OnInit {
    projects: Array<IProject> = [{}] as Array<IProject>;
-   constructor(private projectService: ProjectService) {}
+   constructor(
+      private projectService: ProjectService,
+      @Inject(DOCUMENT) private document: Document
+   ) {}
 
    ngOnInit(): void {
       this.projects = this.projectService.getProjects();
    }
 
-   onClick(): void {
+   onClick(url: string): void {
       console.log("clicked");
-      // TODO: redirect somewhere
+      this.document.location.href = "https://www.google.com";
    }
 }

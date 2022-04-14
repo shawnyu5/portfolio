@@ -1,5 +1,5 @@
 <div fxLayout="row wrap" fxFlex="25%" *ngFor="let project of projects">
-   <mat-card class="project-card" (click)="onClick()">
+   <mat-card class="project-card" (click)="onClick(project.url)">
       <mat-card-header>
          <div class="project-image">
             <img
