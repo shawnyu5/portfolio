@@ -19,8 +19,11 @@ export class ProjectComponent implements OnInit {
       this.projects = this.projectService.getProjects();
    }
 
+   /**
+    * redirects to the url passed in
+    * @param url - url to redirect to
+    */
    onClick(url: string): void {
-      console.log("clicked");
-      this.document.location.href = "https://www.google.com";
+      this.document.location.href = url;
    }
 }

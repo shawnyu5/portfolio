@@ -5,7 +5,7 @@
       fxFlex.sm="33%"
       *ngFor="let project of projects"
    >
-      <mat-card class="project-card" (click)="onClick('www.google.com')">
+      <mat-card class="project-card" (click)="onClick(project.url)">
          <mat-card-header>
             <div class="project-image">
                <img
@@ -25,7 +25,7 @@
             <mat-chip-list aria-label="Tech used">
                <mat-chip *ngFor="let tech of project.techonologies">
                   <mat-chip-avatar>
-                     <img src="{{ tech.icon }}" alt="Icon" />
+                     <img mat-card-avatar src="{{ tech.icon }}" alt="Icon" />
                   </mat-chip-avatar>
                   <a href="{{ tech.url }}">{{ tech.name }}</a>
                </mat-chip>
