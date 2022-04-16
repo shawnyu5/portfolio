@@ -1,0 +1,85 @@
+[
+   {
+      "title": "Penguin magic bot",
+      "description": "A web scrapers that scraps and log products on penginmagic.com, and a discord bot that provides easy access to the data base",
+      "url": "https://github.com/shawnyu5/penguin_bots",
+      "image": {
+         "url": "https://yt3.ggpht.com/ytc/AKedOLSLWDqusAhAaFE2-0x14iR_tUs8U3ne0HbFlHNMYg=s900-c-k-c0x00ffffff-no-rj",
+         "alt": "Penguin magic logo"
+      },
+      "techonologies": [
+         {
+            "name": "Python",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+            "url": "https://www.python.org/"
+         },
+         {
+            "name": "Typescript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+            "url": "https://www.typescriptlang.org/"
+         },
+         {
+            "name": "MongoDB",
+            "icon": "https://miro.medium.com/max/900/1*b0TtGI6gWFLltL1QkRxVdg.png",
+            "url": "https://www.mongodb.com/"
+         },
+         {
+            "name": "Discord.js",
+            "icon": "https://p.kindpng.com/picc/s/108-1084174_discord-js-discord-js-logo-png-transparent-png.png",
+            "url": "https://discord.js.org/#/"
+         }
+      ]
+   },
+   {
+      "title": "Executor.nvim",
+      "description": "A neovim plugin that provides a simple way to execute the current file(s) in the builtin terminal",
+      "url": "https://github.com/shawnyu5/executor.nvim",
+      "image": {
+         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg",
+         "alt": "Neovim logo"
+      },
+      "techonologies": [
+         {
+            "name": "Lua",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1200px-Lua-Logo.svg.png",
+            "url": "https://www.lua.org/"
+         },
+         {
+            "name": "vimscript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png",
+            "url": "https://www.vim.org/"
+         }
+      ]
+   },
+   {
+      "title": "2021 Hackthon",
+      "description": "Seneca climate change hackathon. Web app designed and implemented in a single day",
+      "url": "https://github.com/shawnyu5/hackathon_2021",
+      "image": {
+         "url": "https://media.istockphoto.com/vectors/hackathon-logo-vector-id1216719224?k=20&m=1216719224&s=170667a&w=0&h=gjMWgwYQjHS6eOdTZLAEL1D1sbFDCXeKjnFaWrgkntY=",
+         "alt": "Hackthon logo"
+      },
+      "techonologies": [
+         {
+            "name": "javascript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png",
+            "url": "https://www.javascript.com/"
+         },
+         {
+            "name": "express",
+            "icon": "https://images-platform.99static.com/ZluywLSP07ft-EQnkVrHYSQVMtg=/214x99:1008x893/500x500/top/smart/99designs-contests-attachments/76/76640/attachment_76640029",
+            "url": "https://www.npmjs.com/package/express"
+         },
+         {
+            "name": "HTML",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
+            "url": "https://en.wikipedia.org/wiki/HTML5"
+         },
+         {
+            "name": "handlebars",
+            "icon": "https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1",
+            "url": "https://handlebarsjs.com/"
+         }
+      ]
+   }
+]

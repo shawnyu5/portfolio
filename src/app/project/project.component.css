@@ -1,0 +1,19 @@
+.project-card {
+   max-width: 400px;
+   border: 10px;
+   background-color: #363741;
+   color: #fff;
+   border: 1px solid #fff;
+   border-color: #fff;
+   gap: 15px;
+   margin-bottom: 20px;
+   margin-left: 15px;
+   height: 550px;
+}
+.project-card:hover {
+   cursor: pointer;
+}
+
+.project-image {
+   text-align: center;
+}
