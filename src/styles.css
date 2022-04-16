@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/bootswatch/dist/superhero/bootstrap.min.css";
 @use "@angular/material" as mat;
 @include mat.core();
 
@@ -9,6 +8,7 @@ body {
    margin: 0;
    font-family: Roboto, "Helvetica Neue", sans-serif;
    padding-left: 50px;
+   background-color: #2e2d2d;
 }
 p {
    font-size: 16px;
