@@ -8,11 +8,13 @@
    gap: 15px;
    margin-bottom: 20px;
    margin-left: 15px;
+   height: 530px;
 }
 .project-card:hover {
    cursor: pointer;
 }
 
 .project-image {
-   margin: auto;
+   margin: 0 auto;
+   text-align:center;
 }

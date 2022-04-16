@@ -14,6 +14,11 @@
             "url": "https://www.python.org/"
          },
          {
+            "name": "Typescript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+            "url": "https://www.typescriptlang.org/"
+         },
+         {
             "name": "MongoDB",
             "icon": "https://miro.medium.com/max/900/1*b0TtGI6gWFLltL1QkRxVdg.png",
             "url": "https://www.mongodb.com/"
@@ -48,7 +53,7 @@
    },
    {
       "title": "2021 Hackthon",
-      "description": "Seneca climate change hackathon",
+      "description": "Seneca climate change hackathon. Web app designed and implemented in a single day",
       "url": "https://github.com/shawnyu5/hackathon_2021",
       "image": {
          "url": "https://media.istockphoto.com/vectors/hackathon-logo-vector-id1216719224?k=20&m=1216719224&s=170667a&w=0&h=gjMWgwYQjHS6eOdTZLAEL1D1sbFDCXeKjnFaWrgkntY=",
@@ -67,8 +72,13 @@
          },
          {
             "name": "HTML",
-            "icon": "http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
             "url": "https://en.wikipedia.org/wiki/HTML5"
+         },
+         {
+            "name": "handlebars",
+            "icon": "https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1",
+            "url": "https://handlebarsjs.com/"
          }
       ]
    }

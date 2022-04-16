@@ -6,15 +6,13 @@
       *ngFor="let project of projects"
    >
       <mat-card class="project-card" (click)="onClick(project.url)">
-         <mat-card-header>
-            <div class="project-image">
-               <img
-                  mat-card-image
-                  src="{{ project.image.url }}"
-                  alt="Project image"
-               />
-            </div>
-         </mat-card-header>
+         <div class="project-image">
+            <img
+               mat-card-image
+               src="{{ project.image.url }}"
+               alt="Project image"
+            />
+         </div>
          <mat-card-content>
             <mat-card-title>{{ project.title }}</mat-card-title>
             <hr />
@@ -25,7 +23,9 @@
             <mat-chip-list aria-label="Tech used">
                <mat-chip *ngFor="let tech of project.techonologies">
                   <mat-chip-avatar>
-                     <img mat-card-avatar src="{{ tech.icon }}" alt="Icon" />
+                     <div>
+                        <img mat-card-avatar src="{{ tech.icon }}" alt="Icon" />
+                     </div>
                   </mat-chip-avatar>
                   <a href="{{ tech.url }}">{{ tech.name }}</a>
                </mat-chip>
