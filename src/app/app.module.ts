@@ -11,9 +11,10 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { MatChipsModule } from "@angular/material/chips";
 import { MatCardModule } from "@angular/material/card";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-   declarations: [AppComponent, HomePageComponent, ProjectComponent],
+   declarations: [AppComponent, HomePageComponent, ProjectComponent, NavbarComponent],
    imports: [
       BrowserModule,
       AppRoutingModule,
