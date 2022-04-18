@@ -11,7 +11,9 @@ body {
    background-color: #2e2d2d;
    /* change font color */
    color: #fff;
+   scroll-behavior: smooth;
 }
+
 p {
    font-size: 16px;
 }
