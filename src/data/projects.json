@@ -1,7 +1,7 @@
 [
    {
       "title": "Penguin magic bot",
-      "description": "A web scrapers that scraps and log products on penginmagic.com, and a discord bot that provides easy access to the data base",
+      "description": "A web scrapers that scraps and logs products on penginmagic.com, and a discord bot that provides easy access to the data base",
       "url": "https://github.com/shawnyu5/penguin_bots",
       "image": {
          "url": "https://yt3.ggpht.com/ytc/AKedOLSLWDqusAhAaFE2-0x14iR_tUs8U3ne0HbFlHNMYg=s900-c-k-c0x00ffffff-no-rj",
@@ -27,27 +27,42 @@
             "name": "Discord.js",
             "icon": "https://p.kindpng.com/picc/s/108-1084174_discord-js-discord-js-logo-png-transparent-png.png",
             "url": "https://discord.js.org/#/"
+         },
+         {
+            "name": "Node.js",
+            "icon": "https://logowik.com/content/uploads/images/nodejs.jpg",
+            "url": "https://nodejs.org/"
          }
       ]
    },
    {
-      "title": "Executor.nvim",
-      "description": "A neovim plugin that provides a simple way to execute the current file(s) in the builtin terminal",
-      "url": "https://github.com/shawnyu5/executor.nvim",
+      "title": "Angular music app",
+      "description": "An angular app that displays new songs from spotify. And also supports creating an account and logging in",
+      "url": "https://6250472f431f25182143dd30--roaring-cuchufli-3b0de0.netlify.app/",
       "image": {
-         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg",
-         "alt": "Neovim logo"
+         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png",
+         "alt": "Spotify logo"
       },
       "techonologies": [
          {
-            "name": "Lua",
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1200px-Lua-Logo.svg.png",
-            "url": "https://www.lua.org/"
+            "name": "Angular",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
+            "url": "https://angular.io/"
          },
          {
-            "name": "vimscript",
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png",
-            "url": "https://www.vim.org/"
+            "name": "Typescript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+            "url": "https://www.typescriptlang.org/"
+         },
+         {
+            "name": "express",
+            "icon": "https://images-platform.99static.com/ZluywLSP07ft-EQnkVrHYSQVMtg=/214x99:1008x893/500x500/top/smart/99designs-contests-attachments/76/76640/attachment_76640029",
+            "url": "https://www.npmjs.com/package/express"
+         },
+         {
+            "name": "Node.js",
+            "icon": "https://logowik.com/content/uploads/images/nodejs.jpg",
+            "url": "https://nodejs.org/"
          }
       ]
    },
@@ -79,6 +94,32 @@
             "name": "handlebars",
             "icon": "https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1",
             "url": "https://handlebarsjs.com/"
+         },
+         {
+            "name": "Node.js",
+            "icon": "https://logowik.com/content/uploads/images/nodejs.jpg",
+            "url": "https://nodejs.org/"
+         }
+      ]
+   },
+   {
+      "title": "Executor.nvim",
+      "description": "A neovim plugin that provides a simple way to execute the current file(s) in the builtin terminal",
+      "url": "https://github.com/shawnyu5/executor.nvim",
+      "image": {
+         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg",
+         "alt": "Neovim logo"
+      },
+      "techonologies": [
+         {
+            "name": "Lua",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1200px-Lua-Logo.svg.png",
+            "url": "https://www.lua.org/"
+         },
+         {
+            "name": "vimscript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png",
+            "url": "https://www.vim.org/"
          }
       ]
    }
