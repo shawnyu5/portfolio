@@ -21,3 +21,9 @@ p {
 a {
    color: #42f5d4;
 }
+
+h1 {
+   font-size: 150%;
+   font-weight: 300;
+   margin-bottom: 20px;
+}

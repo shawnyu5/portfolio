@@ -20,10 +20,10 @@ export class ProjectComponent implements OnInit {
    }
 
    /**
-    * redirects to the url passed in
+    * redirects to an external url
     * @param url - url to redirect to
     */
-   onClick(url: string): void {
+   redirect(url: string): void {
       this.document.location.href = url;
    }
 }
