@@ -12,6 +12,7 @@ import { MatChipsModule } from "@angular/material/chips";
 import { MatCardModule } from "@angular/material/card";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { NavbarComponent } from "./navbar/navbar.component";
+import { MatButtonModule } from "@angular/material/button";
 
 @NgModule({
    declarations: [
@@ -29,6 +30,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
       MatChipsModule,
       FlexLayoutModule,
       NgbModule,
+      MatButtonModule,
    ],
    exports: [],
    providers: [],

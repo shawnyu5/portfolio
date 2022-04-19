@@ -24,3 +24,9 @@
 #intro {
    font-size: 23px;
 }
+
+.accent-btn {
+   background-color: #ffe066;
+   color: black;
+   margin-right: 15px;
+}
