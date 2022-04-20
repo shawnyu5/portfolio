@@ -11,6 +11,7 @@ fmt:
 
 test:
 	$(log,Testing)
+	npm run headless-test
 
 pr-ready: fmt test
 

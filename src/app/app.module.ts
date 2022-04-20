@@ -10,9 +10,17 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { MatChipsModule } from "@angular/material/chips";
 import { MatCardModule } from "@angular/material/card";
+import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { NavbarComponent } from "./navbar/navbar.component";
+import { MatButtonModule } from "@angular/material/button";
 
 @NgModule({
-   declarations: [AppComponent, HomePageComponent, ProjectComponent],
+   declarations: [
+      AppComponent,
+      HomePageComponent,
+      ProjectComponent,
+      NavbarComponent,
+   ],
    imports: [
       BrowserModule,
       AppRoutingModule,
@@ -21,6 +29,8 @@ import { MatCardModule } from "@angular/material/card";
       MatToolbarModule,
       MatChipsModule,
       FlexLayoutModule,
+      NgbModule,
+      MatButtonModule,
    ],
    exports: [],
    providers: [],

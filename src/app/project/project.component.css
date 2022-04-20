@@ -18,3 +18,7 @@
 .project-image {
    text-align: center;
 }
+
+mat-chip:hover {
+   cursor: pointer;
+}
