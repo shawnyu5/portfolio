@@ -21,12 +21,12 @@
          <mat-card-actions>
             <mat-chip-list aria-label="Tech used">
                <mat-chip *ngFor="let tech of project.techonologies">
-                  <mat-chip-avatar (onClick)="redirect(tech.name)">
-                     <div>
-                        <img mat-card-avatar src="{{ tech.icon }}" alt="Icon" />
-                     </div>
+                  <mat-chip-avatar>
+                     <img mat-card-avatar src="{{ tech.icon }}" alt="Icon" />
                   </mat-chip-avatar>
-                  <a style="bottom: 0px">{{ tech.name }}</a>
+                  <a style="bottom: 0px" href="{{ tech.url }}">{{
+                     tech.name
+                  }}</a>
                </mat-chip>
             </mat-chip-list>
          </mat-card-actions>
