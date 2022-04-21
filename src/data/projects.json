@@ -38,7 +38,7 @@
    {
       "title": "Angular music app",
       "description": "An angular app that displays new songs from spotify. And also supports creating an account and logging in",
-      "url": "https://6250472f431f25182143dd30--roaring-cuchufli-3b0de0.netlify.app/",
+      "url": "https://angularmusicapp.netlify.app",
       "image": {
          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png",
          "alt": "Spotify logo"
