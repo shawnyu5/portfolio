@@ -1,3 +1,4 @@
+import { ViewportScroller } from "@angular/common";
 import { Component, OnInit } from "@angular/core";
 
 @Component({
@@ -8,7 +9,12 @@ import { Component, OnInit } from "@angular/core";
 export class NavbarComponent implements OnInit {
    public isMenuCollapsed = true;
 
-   constructor() {}
+   constructor(private viewportScroller: ViewportScroller) {}
 
    ngOnInit(): void {}
+
+   onClick(isMenuCollapsed: boolean, anchor: string): void {
+      this.isMenuCollapsed = isMenuCollapsed;
+      this.viewportScroller.scrollToAnchor(anchor);
+   }
 }
