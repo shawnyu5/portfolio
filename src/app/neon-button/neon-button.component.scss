@@ -1,0 +1,70 @@
+.btn {
+   border: 2px solid black;
+   background-color: #ffd500;
+   color: black;
+   padding: 14px 28px;
+   font-size: 16px;
+   cursor: pointer;
+}
+:root {
+   --clr-neon: hsl(317 100% 54%);
+   --clr-bg: hsl(323 21% 16%);
+}
+
+.neon-button {
+   font-size: 22px;
+   display: inline-block;
+   cursor: pointer;
+   text-decoration: none;
+   color: var(--clr-neon);
+   text-shadow: 20 0 42px #ffd500, 0 0 82px #ffd500;
+   border: var(--clr-neon) 0.125em solid;
+   padding: 0.25em 1em;
+   border-radius: 0.25em;
+   position: relative;
+   box-shadow: 0 0 10px #ffd500;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+   color: black;
+   text-shadow: none;
+}
+
+// .neon-button::after {
+// content: "";
+// position: absolute;
+// top: 0;
+// bottom: 0;
+// left: 0;
+// right: 0;
+// box-shadow: 0 0 2em 0.5em var(--clr-neon);
+// opacity: 0;
+// background-color: var(--clr-neon);
+// z-index: -1;
+// transition: opacity 100ms linear;
+// }
+
+// .neon-button::before {
+// pointer-events: none;
+// content: "";
+// position: absolute;
+// background: var(--clr-neon);
+// top: 120%;
+// left: 0;
+// width: 100%;
+// height: 100%;
+
+// transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+// filter: blur(1em);
+// opacity: 0.7;
+// }
+
+// .neon-button:hover::before,
+// .neon-button:focus::before {
+// opacity: 1;
+// }
+// .neon-button:hover::after,
+// .neon-button:focus::after {
+// opacity: 1;
+// }
