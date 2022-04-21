@@ -25,12 +25,10 @@
    box-shadow: 0 0 10px #ffd500;
 }
 
-// TODO: add hover state. idk why this is not working
 .neon-button:hover,
 .neon-button:focus {
-   // color: var(--clr-bg);
-   // text-shadow: none;
-   text-shadow: 20 0 42px #000000, 0 0 82px #000000;
+   color: black;
+   text-shadow: none;
 }
 
 // .neon-button::after {
