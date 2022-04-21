@@ -9,3 +9,7 @@
 .nav-item {
    font-size: 17px;
 }
+
+.nav-item:hover {
+   cursor: pointer;
+}
