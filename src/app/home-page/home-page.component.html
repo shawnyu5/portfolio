@@ -16,20 +16,15 @@
    <p>{{ aboutMe }}</p>
 </div>
 <br />
-<app-neon-button redirectLink="https://github.com/shawnyu5"
-   >GitHub <i class="fa fa-github" style="font-size: 29px"></i>
-</app-neon-button>
-<!-- <section> -->
-<!-- <a mat-flat-button class="accent-btn" href="https://github.com/shawnyu5" -->
-<!-- >GitHub</a -->
-<!-- > -->
-<!-- <a -->
-<!-- mat-flat-button -->
-<!-- class="accent-btn" -->
-<!-- href="https://www.linkedin.com/in/shawn-yu-228ba6206/" -->
-<!-- >LinkedIn</a -->
-<!-- > -->
-<!-- </section> -->
+<section>
+   <app-neon-button redirectLink="https://github.com/shawnyu5"
+      >GitHub <i class="fa fa-github" style="font-size: 29px"></i>
+   </app-neon-button>
+   <app-neon-button
+      redirectLink="https://www.linkedin.com/in/shawn-yu-228ba6206/"
+      >LinkedIn <i class="fa fa-linkedin" aria-hidden="true"></i>
+   </app-neon-button>
+</section>
 
 <div *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]">
    <br />
