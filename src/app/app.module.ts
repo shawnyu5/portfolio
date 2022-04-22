@@ -13,7 +13,7 @@ import { MatCardModule } from "@angular/material/card";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { NavbarComponent } from "./navbar/navbar.component";
 import { MatButtonModule } from "@angular/material/button";
-import { NeonButtonComponent } from './neon-button/neon-button.component';
+import { NeonButtonComponent } from "./neon-button/neon-button.component";
 
 @NgModule({
    declarations: [

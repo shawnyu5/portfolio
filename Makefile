@@ -13,5 +13,9 @@ test:
 	$(log,Testing)
 	npm run headless-test
 
-pr-ready: fmt test
+build:
+	$(log,Building)
+	npm run build
+
+pr-ready: fmt test build
 
