@@ -16,7 +16,8 @@
    display: inline-block;
    cursor: pointer;
    text-decoration: none;
-   color: var(--clr-neon);
+   // color: var(--clr-neon);
+   color: black;
    text-shadow: 20 0 42px #ffd500, 0 0 82px #ffd500;
    border: var(--clr-neon) 0.125em solid;
    padding: 0.25em 1em;
@@ -28,7 +29,7 @@
 
 .neon-button:hover,
 .neon-button:focus {
-   color: black;
+   color: white;
    text-shadow: none;
 }
 
