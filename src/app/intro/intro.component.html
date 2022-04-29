@@ -1,0 +1,32 @@
+<!-- add font awesome -->
+<link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<div id="intro">
+   <div id="profile-picture">
+      <img id="img" [src]="profileImage" />
+   </div>
+   <p id="introducing" style="color: #3cff00">Introducing</p>
+   <br />
+   <br />
+
+   <h2 style="font-size: 50px">Hello</h2>
+   <br />
+   <h1 style="font-size: 60px">
+      <strong>I'm Shawn Yu</strong>
+   </h1>
+
+   <br />
+   <p style="max-width: 600px">{{ aboutMe }}</p>
+</div>
+<br />
+<section>
+   <app-neon-button redirectLink="https://github.com/shawnyu5"
+      >GitHub <i class="fa fa-github" style="font-size: 29px"></i>
+   </app-neon-button>
+   <app-neon-button
+      redirectLink="https://www.linkedin.com/in/shawn-yu-228ba6206/"
+      >LinkedIn <i class="fa fa-linkedin" aria-hidden="true"></i>
+   </app-neon-button>
+</section>
