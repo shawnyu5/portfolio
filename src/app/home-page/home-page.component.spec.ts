@@ -30,7 +30,8 @@ describe("HomePageComponent", () => {
       expect(component).toBeTruthy();
    });
 
-   it("should display name", () => {
+   // TODO: this component is no longer responsible for these. Move tests to their respective components
+   xit("should display name", () => {
       let h1 = debugElement.queryAll(By.css("h1"));
       let found = false;
       h1.forEach((element) => {
@@ -44,7 +45,7 @@ describe("HomePageComponent", () => {
       expect(found).toBe(true);
    });
 
-   it("Should display about me", () => {
+   xit("Should display about me", () => {
       let expected = service.getAboutMe();
       let aboutMe = debugElement.queryAll(By.css("#intro p"));
 
