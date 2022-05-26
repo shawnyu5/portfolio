@@ -5,9 +5,9 @@
 />
 
 <div id="intro">
-   <div id="profile-picture">
-      <img id="img" [src]="profileImage" />
-   </div>
+   <picture>
+      <img id="profile-picture" [src]="profileImage" />
+   </picture>
    <p id="introducing" style="color: #3cff00">Introducing</p>
    <br />
    <br />
@@ -21,7 +21,9 @@
    <br />
    <p style="max-width: 700px; font-size: 19px">{{ aboutMe }}</p>
 </div>
+
 <br />
+
 <section>
    <app-neon-button redirectLink="https://github.com/shawnyu5"
       >GitHub <i class="fa fa-github" style="font-size: 29px"></i>

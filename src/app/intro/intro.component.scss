@@ -11,18 +11,25 @@
 }
 
 #profile-picture {
-   width: 37%;
+   // width: 37%;
+   max-width: 350px;
    margin-right: 7%;
    text-align: right;
    float: right;
-}
-
-#img {
-   width: 500px;
+   // width: 500px;
 }
 
 #intro {
    font-size: 23px;
+   // display: flex;
+   flex-wrap: wrap;
+   flex-basis: 100%;
+}
+
+@media (min-width: 600px) {
+   #intro {
+      flex-wrap: nowrap;
+   }
 }
 
 .accent-btn {
