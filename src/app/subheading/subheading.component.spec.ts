@@ -1,25 +1,24 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SubheadingComponent } from './subheading.component';
+import { SubheadingComponent } from "./subheading.component";
 
-describe('SubheadingComponent', () => {
-  let component: SubheadingComponent;
-  let fixture: ComponentFixture<SubheadingComponent>;
+describe("SubheadingComponent", () => {
+   let component: SubheadingComponent;
+   let fixture: ComponentFixture<SubheadingComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ SubheadingComponent ]
-    })
-    .compileComponents();
-  });
+   beforeEach(async () => {
+      await TestBed.configureTestingModule({
+         declarations: [SubheadingComponent],
+      }).compileComponents();
+   });
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(SubheadingComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+   beforeEach(() => {
+      fixture = TestBed.createComponent(SubheadingComponent);
+      component = fixture.componentInstance;
+      fixture.detectChanges();
+   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+   it("should create", () => {
+      expect(component).toBeTruthy();
+   });
 });

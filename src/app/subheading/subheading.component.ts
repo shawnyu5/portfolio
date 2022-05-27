@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-subheading',
-  templateUrl: './subheading.component.html',
-  styleUrls: ['./subheading.component.scss']
+   selector: "app-subheading",
+   templateUrl: "./subheading.component.html",
+   styleUrls: ["./subheading.component.scss"],
 })
 export class SubheadingComponent implements OnInit {
+   constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+   ngOnInit(): void {}
 }

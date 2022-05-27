@@ -15,7 +15,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { MatButtonModule } from "@angular/material/button";
 import { NeonButtonComponent } from "./neon-button/neon-button.component";
 import { IntroComponent } from "./intro/intro.component";
-import { SubheadingComponent } from './subheading/subheading.component';
+import { SubheadingComponent } from "./subheading/subheading.component";
 
 @NgModule({
    declarations: [
