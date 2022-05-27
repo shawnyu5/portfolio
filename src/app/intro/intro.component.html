@@ -5,23 +5,26 @@
 />
 
 <div id="intro">
-   <div id="profile-picture">
-      <img id="img" [src]="profileImage" />
-   </div>
-   <p id="introducing" style="color: #3cff00">Introducing</p>
+   <picture>
+      <img id="profile-picture" loading="lazy" [src]="profileImage" />
+   </picture>
+
+   <app-subheading>Introducing</app-subheading>
    <br />
    <br />
 
    <h2 style="font-size: 50px">Hello</h2>
    <br />
-   <h1 style="font-size: 60px">
+   <h1 style="font-size: 60px; white-space: break-spaces; line-height: 60px">
       <strong>I'm Shawn Yu</strong>
    </h1>
 
    <br />
    <p style="max-width: 700px; font-size: 19px">{{ aboutMe }}</p>
 </div>
+
 <br />
+
 <section>
    <app-neon-button redirectLink="https://github.com/shawnyu5"
       >GitHub <i class="fa fa-github" style="font-size: 29px"></i>

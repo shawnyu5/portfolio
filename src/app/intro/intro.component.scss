@@ -1,28 +1,54 @@
-#introducing::before {
-   content: "";
-   display: inline-block;
-   position: relative;
-   top: -0.1em;
-   margin-right: 0.25em;
-   width: 25px;
-   height: 2px;
-   background: #3cff00;
-   vertical-align: middle;
-}
+// #introducing::before {
+// content: "";
+// display: inline-block;
+// position: relative;
+// top: -0.1em;
+// margin-right: 0.25em;
+// width: 25px;
+// height: 2px;
+// background: #3cff00;
+// vertical-align: middle;
+// }
 
 #profile-picture {
-   width: 37%;
+   // width: 37%;
+   max-width: 350px;
    margin-right: 7%;
    text-align: right;
    float: right;
 }
 
-#img {
-   width: 500px;
-}
-
 #intro {
    font-size: 23px;
+   // display: flex;
+   flex-wrap: wrap;
+   flex-basis: 100%;
+}
+
+// @media (min-width: 600px) {
+// #intro {
+// flex-wrap: nowrap;
+// }
+// }
+
+// for screen size 720 and under
+@media screen and (max-width: 721px) {
+   #intro {
+      flex-wrap: wrap;
+      flex-basis: 33%;
+      // fill with red color
+      // background-color: red;
+   }
+
+   #profile-picture {
+      text-align: 0;
+
+      display: block;
+      border: none;
+
+      display: flex;
+      justify-content: center;
+   }
 }
 
 .accent-btn {
