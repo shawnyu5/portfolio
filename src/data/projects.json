@@ -67,6 +67,27 @@
       ]
    },
    {
+      "title": "Portfolio website",
+      "description": "This portfolio website",
+      "url": "https://github.com/shawnyu5/portfolio",
+      "image": {
+         "url": "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
+         "alt": "Angular logo"
+      },
+      "techonologies": [
+         {
+            "name": "Angular",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
+            "url": "https://angular.io/"
+         },
+         {
+            "name": "Typescript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+            "url": "https://www.typescriptlang.org/"
+         }
+      ]
+   },
+   {
       "title": "2021 Hackthon",
       "description": "Seneca climate change hackathon. Web app designed and implemented in a single day",
       "url": "https://github.com/shawnyu5/hackathon_2021",
