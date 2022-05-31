@@ -32,12 +32,17 @@
 // }
 
 // for screen size 720 and under
+// @media screen and (max-width: 845px) {
 @media screen and (max-width: 721px) {
    #intro {
-      flex-wrap: wrap;
-      flex-basis: 33%;
+      // flex-wrap: wrap;
+      // flex-basis: 33%;
       // fill with red color
       // background-color: red;
+      // display: flex;
+      justify-content: center;
+      padding: 10px;
+      // padding-right: 100;
    }
 
    #profile-picture {
