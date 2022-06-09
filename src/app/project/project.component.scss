@@ -23,3 +23,18 @@
 mat-chip:hover {
    cursor: pointer;
 }
+
+// TODO: center these on a smaller screen
+@media screen and (max-width: 721px) {
+   .project-card {
+      // margin-right: 30px;
+      // margin-left: 20px;
+      margin-bottom: 20px;
+      justify-content: center;
+      // center the cards
+      text-align: left;
+      float: left;
+      // left align the cards
+      // background-color: red;
+   }
+}
