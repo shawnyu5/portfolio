@@ -1,6 +1,6 @@
 [
    {
-      "title": "Penguin magic bot",
+      "title": "Penguin magic logger",
       "description": "A web scrapers that scraps and logs products on penginmagic.com, and a discord bot that provides easy access to the data base",
       "url": "https://github.com/shawnyu5/penguin_bots",
       "image": {
