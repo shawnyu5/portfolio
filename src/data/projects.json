@@ -146,7 +146,7 @@
    },
    {
       "title": "Super simple compiler",
-      "description": "Writting a super simple compiler to learn how compilers work behind the scenes",
+      "description": "Writing a super simple compiler to learn how compilers work behind the scenes",
       "url": "https://github.com/shawnyu5/super_simple_compiler/tree/1d46421928d2d4aeee21e7159aad63dd651817cd",
       "image": {
          "url": "https://miro.medium.com/max/900/1*jnT9eoQMlc96bGxTnIbK9g.jpeg",
