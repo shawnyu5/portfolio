@@ -22,7 +22,13 @@
             <mat-chip-list aria-label="Tech used">
                <mat-chip *ngFor="let tech of project.techonologies">
                   <mat-chip-avatar>
-                     <img mat-card-avatar src="{{ tech.icon }}" alt="Icon" />
+                     <a href="{{ tech.url }}" target="_blank">
+                        ><img
+                           class="mat-chip-icon"
+                           src="{{ tech.icon }}"
+                           alt="Icon"
+                        />
+                     </a>
                   </mat-chip-avatar>
                   <a style="bottom: 0px" href="{{ tech.url }}">{{
                      tech.name

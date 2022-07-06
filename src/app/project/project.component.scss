@@ -40,3 +40,10 @@ mat-chip:hover {
       // background-color: red;
    }
 }
+
+.mat-chip-icon {
+   position: relative;
+   top: -10px;
+   height: 30px;
+   width: auto;
+}
