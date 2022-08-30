@@ -88,6 +88,22 @@
       ]
    },
    {
+      "title": "DSA go brrr",
+      "description": "Common DSA structures implemented in Go, including doubly linked list, hash map, and threaded binary search tree",
+      "url": "https://github.com/shawnyu5/dsa_go_brrr",
+      "image": {
+         "url": "https://blog.logrocket.com/wp-content/uploads/2021/09/Comprehensive-guide-data-structures-go.jpg",
+         "alt": "data structures in Go"
+      },
+      "techonologies": [
+         {
+            "name": "Go",
+            "icon": "https://support.discord.com/hc/user_images/w3-GkZneLZmfg6odFGLqoQ.png",
+            "url": "https://go.dev/"
+         }
+      ]
+   },
+   {
       "title": "2021 Hackthon",
       "description": "Seneca climate change hackathon. Web app designed and implemented in a single day",
       "url": "https://github.com/shawnyu5/hackathon_2021",
@@ -154,7 +170,7 @@
       },
       "techonologies": [
          {
-            "name": "go",
+            "name": "Go",
             "icon": "https://support.discord.com/hc/user_images/w3-GkZneLZmfg6odFGLqoQ.png",
             "url": "https://go.dev/"
          }
