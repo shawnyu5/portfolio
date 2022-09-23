@@ -104,6 +104,53 @@
       ]
    },
    {
+      "title": "debate dragon",
+      "description": "A discord bot to burn down your debate fowls",
+      "url": "https://github.com/shawnyu5/debate_dragon",
+      "image": {
+         "url": "https://cliparting.com/wp-content/uploads/2018/03/dragon-drawings-2018-19.jpg",
+         "alt": "baby dragon"
+      },
+      "techonologies": [
+         {
+            "name": "javascript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png",
+            "url": "https://www.javascript.com/"
+         },
+         {
+            "name": "Typescript",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+            "url": "https://www.typescriptlang.org/"
+         },
+         {
+            "name": "Discord.js",
+            "icon": "https://raw.githubusercontent.com/github/explore/888aa7196bdda1de09e848148fc5929ccfe49ab6/topics/discord-js/discord-js.png",
+            "url": "https://discord.js.org/#/"
+         }
+      ]
+   },
+   {
+      "title": "debate dragon 2.0",
+      "description": "A rewrite of debate dragon, a discord bot to burn down your debate fowls in Go, cuz typescript sucks",
+      "url": "https://github.com/shawnyu5/debate_dragon_2.0",
+      "image": {
+         "url": "https://miro.medium.com/max/980/1*yrZrxNxNRUjt4uQfuACP6g.jpeg",
+         "alt": "dragon"
+      },
+      "techonologies": [
+         {
+            "name": "Go",
+            "icon": "https://support.discord.com/hc/user_images/w3-GkZneLZmfg6odFGLqoQ.png",
+            "url": "https://go.dev/"
+         },
+         {
+            "name": "Discordgo",
+            "icon": "https://github.com/bwmarrin/discordgo/raw/v0.26.1/docs/img/discordgo.svg",
+            "url": "https://pkg.go.dev/github.com/bwmarrin/discordgo"
+         }
+      ]
+   },
+   {
       "title": "2021 Hackthon",
       "description": "Seneca climate change hackathon. Web app designed and implemented in a single day",
       "url": "https://github.com/shawnyu5/hackathon_2021",
