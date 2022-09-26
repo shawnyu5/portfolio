@@ -1,7 +1,6 @@
 export default interface IProject {
    title: string;
    description: string;
-   url: string;
    image: {
       url: string;
       alt: string;
@@ -10,5 +9,9 @@ export default interface IProject {
       name: string;
       icon: string;
       url: string;
+   }>;
+   buttons: Array<{
+      text: string;
+      link: string;
    }>;
 }

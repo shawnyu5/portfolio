@@ -1,5 +1,4 @@
-import { DOCUMENT } from "@angular/common";
-import { Component, Inject, Input, OnInit } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 
 @Component({
    selector: "app-neon-button",
@@ -10,7 +9,10 @@ export class NeonButtonComponent implements OnInit {
    @Input()
    redirectLink: string | undefined;
 
-   constructor() {}
+   @Input()
+   target: string | undefined;
 
-   ngOnInit(): void {}
+   constructor() { }
+
+   ngOnInit(): void { }
 }

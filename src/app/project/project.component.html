@@ -5,12 +5,13 @@
       fxFlex.sm="33%"
       *ngFor="let project of projects"
    >
-      <mat-card class="project-card" (click)="redirect(project.url)">
+      <mat-card class="project-card">
          <div class="project-image">
             <img
                mat-card-image
                src="{{ project.image.url }}"
                alt="Project image"
+               target="_blank"
             />
          </div>
          <mat-card-content>
@@ -30,12 +31,35 @@
                         />
                      </a>
                   </mat-chip-avatar>
-                  <a style="bottom: 0px" href="{{ tech.url }}">{{
-                     tech.name
-                  }}</a>
+                  <a
+                     style="bottom: 0px"
+                     href="{{ tech.url }}"
+                     target="_blank"
+                     >{{ tech.name }}</a
+                  >
                </mat-chip>
             </mat-chip-list>
          </mat-card-actions>
+
+         <div class="card-footer" *ngFor="let button of project.buttons">
+            <app-neon-button
+               *ngIf="button.text == logoText.github"
+               class="card-footer"
+               redirectLink="{{ button.link }}"
+               target="_blank"
+            >
+               {{ button.text }} <logo logoName="{{ logoText.github }}"></logo>
+            </app-neon-button>
+
+            <app-neon-button
+               *ngIf="button.text == logoText.demo"
+               class="card-footer"
+               redirectLink="{{ button.link }}"
+               target="_blank"
+            >
+               {{ button.text }} <logo logoName="{{ logoText.demo }}"></logo>
+            </app-neon-button>
+         </div>
       </mat-card>
    </div>
 </div>

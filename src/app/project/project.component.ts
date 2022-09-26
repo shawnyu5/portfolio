@@ -2,6 +2,7 @@ import { Component, Inject, OnInit } from "@angular/core";
 import IProject from "src/types/project";
 import { ProjectService } from "../project.service";
 import { DOCUMENT } from "@angular/common";
+import { LogoComponent, LogoText } from "src/app/logo/logo.component";
 
 @Component({
    selector: "app-project",
@@ -9,7 +10,12 @@ import { DOCUMENT } from "@angular/common";
    styleUrls: ["./project.component.scss"],
 })
 export class ProjectComponent implements OnInit {
+   htmlString = "<h1>hello</h1>";
+   /**
+    * Array of projects
+    */
    projects: Array<IProject> = [{}] as Array<IProject>;
+   logoText = LogoText;
    constructor(
       private projectService: ProjectService,
       @Inject(DOCUMENT) private document: Document
@@ -25,5 +31,13 @@ export class ProjectComponent implements OnInit {
     */
    redirect(url: string): void {
       this.document.location.href = url;
+   }
+
+   /**
+    * Brings the LogoText enum into this scope, to be accessible with in this component
+    * @returns LogoText enum
+    */
+   get LogoText(): typeof LogoText {
+      return LogoText;
    }
 }

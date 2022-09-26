@@ -16,6 +16,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { NeonButtonComponent } from "./neon-button/neon-button.component";
 import { IntroComponent } from "./intro/intro.component";
 import { SubheadingComponent } from "./subheading/subheading.component";
+import { LogoComponent } from "./logo/logo.component";
 
 @NgModule({
    declarations: [
@@ -26,6 +27,7 @@ import { SubheadingComponent } from "./subheading/subheading.component";
       NeonButtonComponent,
       IntroComponent,
       SubheadingComponent,
+      LogoComponent,
    ],
    imports: [
       BrowserModule,
@@ -42,4 +44,4 @@ import { SubheadingComponent } from "./subheading/subheading.component";
    providers: [],
    bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

@@ -2,11 +2,16 @@
    {
       "title": "Penguin magic logger",
       "description": "A web scrapers that scraps and logs products on penginmagic.com, and a discord bot that provides easy access to the data base",
-      "url": "https://github.com/shawnyu5/penguin_bots",
       "image": {
          "url": "https://i.imgur.com/8pHAgy2.jpg",
          "alt": "Penguin magic logo"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/penguin_bots"
+         }
+      ],
       "techonologies": [
          {
             "name": "Python",
@@ -43,11 +48,20 @@
    {
       "title": "Angular music app",
       "description": "An angular app that displays new songs from spotify. And also supports creating an account and logging in",
-      "url": "https://angularmusicapp.netlify.app",
       "image": {
          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png",
          "alt": "Spotify logo"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/music_angular_app"
+         },
+         {
+            "text": "Demo",
+            "link": "https://angularmusicapp.netlify.app"
+         }
+      ],
       "techonologies": [
          {
             "name": "Angular",
@@ -74,11 +88,16 @@
    {
       "title": "Portfolio website",
       "description": "The source code for this website",
-      "url": "https://github.com/shawnyu5/portfolio",
       "image": {
          "url": "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
          "alt": "Angular logo"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/portfolio"
+         }
+      ],
       "techonologies": [
          {
             "name": "Angular",
@@ -95,11 +114,16 @@
    {
       "title": "DSA go brrr",
       "description": "Common DSA structures implemented in Go, including doubly linked list, hash map, and threaded binary search tree",
-      "url": "https://github.com/shawnyu5/dsa_go_brrr",
       "image": {
          "url": "https://blog.logrocket.com/wp-content/uploads/2021/09/Comprehensive-guide-data-structures-go.jpg",
          "alt": "data structures in Go"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/dsa_go_brrr"
+         }
+      ],
       "techonologies": [
          {
             "name": "Go",
@@ -111,11 +135,16 @@
    {
       "title": "debate dragon",
       "description": "A discord bot to burn down your debate fowls",
-      "url": "https://github.com/shawnyu5/debate_dragon",
       "image": {
          "url": "https://cliparting.com/wp-content/uploads/2018/03/dragon-drawings-2018-19.jpg",
          "alt": "baby dragon"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/debate_dragon"
+         }
+      ],
       "techonologies": [
          {
             "name": "javascript",
@@ -137,11 +166,16 @@
    {
       "title": "debate dragon 2.0",
       "description": "A rewrite of debate dragon, a discord bot to burn down your debate fowls in Go, cuz typescript sucks",
-      "url": "https://github.com/shawnyu5/debate_dragon_2.0",
       "image": {
          "url": "https://miro.medium.com/max/980/1*yrZrxNxNRUjt4uQfuACP6g.jpeg",
          "alt": "dragon"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/debate_dragon_2.0"
+         }
+      ],
       "techonologies": [
          {
             "name": "Go",
@@ -158,11 +192,16 @@
    {
       "title": "2021 Hackthon",
       "description": "Seneca climate change hackathon. Web app designed and implemented in a single day",
-      "url": "https://github.com/shawnyu5/hackathon_2021",
       "image": {
          "url": "https://media.istockphoto.com/vectors/hackathon-logo-vector-id1216719224?k=20&m=1216719224&s=170667a&w=0&h=gjMWgwYQjHS6eOdTZLAEL1D1sbFDCXeKjnFaWrgkntY=",
          "alt": "Hackthon logo"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/hackathon_2021"
+         }
+      ],
       "techonologies": [
          {
             "name": "javascript",
@@ -194,11 +233,16 @@
    {
       "title": "Executor.nvim",
       "description": "A neovim plugin that provides a simple way to execute the current file(s) in the builtin terminal",
-      "url": "https://github.com/shawnyu5/executor.nvim",
       "image": {
          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg",
          "alt": "Neovim logo"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/executor.nvim"
+         }
+      ],
       "techonologies": [
          {
             "name": "Lua",
@@ -215,11 +259,16 @@
    {
       "title": "Super simple compiler",
       "description": "Writing a super simple compiler to learn how compilers work behind the scenes",
-      "url": "https://github.com/shawnyu5/super_simple_compiler/tree/1d46421928d2d4aeee21e7159aad63dd651817cd",
       "image": {
          "url": "https://miro.medium.com/max/900/1*jnT9eoQMlc96bGxTnIbK9g.jpeg",
          "alt": "Hackthon logo"
       },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/super_simple_compiler/tree/1d46421928d2d4aeee21e7159aad63dd651817cd"
+         }
+      ],
       "techonologies": [
          {
             "name": "Go",

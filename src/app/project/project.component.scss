@@ -16,9 +16,6 @@
    height: 100%;
    // display: flex;
 }
-.project-card:hover {
-   cursor: pointer;
-}
 
 .project-image {
    text-align: center;
@@ -48,4 +45,12 @@ mat-chip:hover {
    top: -10px;
    height: 30px;
    width: auto;
+}
+
+.card-footer {
+   // display: inline;
+   bottom: 0;
+   text-align: center;
+   background-color: #363741;
+   color: #fff;
 }
