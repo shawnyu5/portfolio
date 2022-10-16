@@ -1,8 +1,18 @@
 <div fxLayout="row wrap" fxLayoutGap="20px grid" fxLayout.xs="column row">
-   <div fxFlex="19%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let project of projects">
+   <div
+      fxFlex="19%"
+      fxFlex.xs="100%"
+      fxFlex.sm="33%"
+      *ngFor="let project of projects"
+   >
       <mat-card class="project-card">
          <div class="project-image">
-            <img mat-card-image src="{{ project.image.url }}" alt="Project image" target="_blank" />
+            <img
+               mat-card-image
+               src="{{ project.image.url }}"
+               alt="Project image"
+               target="_blank"
+            />
          </div>
          <mat-card-content>
             <mat-card-title>{{ project.title }}</mat-card-title>
@@ -14,29 +24,51 @@
                <mat-chip *ngFor="let tech of project.techonologies">
                   <mat-chip-avatar>
                      <a href="{{ tech.url }}" target="_blank">
-                        ><img class="mat-chip-icon" src="{{ tech.icon }}" alt="Icon" />
+                        ><img
+                           class="mat-chip-icon"
+                           src="{{ tech.icon }}"
+                           alt="Icon"
+                        />
                      </a>
                   </mat-chip-avatar>
-                  <a style="bottom: 0px" href="{{ tech.url }}" target="_blank">{{ tech.name }}</a>
+                  <a
+                     style="bottom: 0px"
+                     href="{{ tech.url }}"
+                     target="_blank"
+                     >{{ tech.name }}</a
+                  >
                </mat-chip>
             </mat-chip-list>
          </mat-card-actions>
 
          <div class="card-footer" *ngFor="let button of project.buttons">
-            <app-neon-button *ngIf="button.text == logoText.github" class="card-footer" redirectLink="{{ button.link }}"
-               target="_blank">
+            <app-neon-button
+               *ngIf="button.text == logoText.github"
+               class="card-footer"
+               redirectLink="{{ button.link }}"
+               target="_blank"
+            >
                <!-- {{ generateHTMLButton(button) }} -->
                {{ button.text }} <logo logoName="{{ logoText.github }}"></logo>
             </app-neon-button>
 
-            <app-neon-button *ngIf="button.text == logoText.demo" class="card-footer" redirectLink="{{ button.link }}"
-               target="_blank">
+            <app-neon-button
+               *ngIf="button.text == logoText.demo"
+               class="card-footer"
+               redirectLink="{{ button.link }}"
+               target="_blank"
+            >
                {{ button.text }} <logo logoName="{{ logoText.demo }}"></logo>
             </app-neon-button>
 
-            <app-neon-button *ngIf="
+            <app-neon-button
+               *ngIf="
                   button.text != logoText.demo && button.text != logoText.github
-               " class="card-footer" redirectLink="{{ button.link }}" target="_blank">
+               "
+               class="card-footer"
+               redirectLink="{{ button.link }}"
+               target="_blank"
+            >
                {{ button.text }}
             </app-neon-button>
          </div>
