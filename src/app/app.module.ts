@@ -17,6 +17,8 @@ import { NeonButtonComponent } from "./neon-button/neon-button.component";
 import { IntroComponent } from "./intro/intro.component";
 import { SubheadingComponent } from "./subheading/subheading.component";
 import { LogoComponent } from "./logo/logo.component";
+import { StupidHacksPresentationComponent } from "./stupid-hacks-presentation/stupid-hacks-presentation.component";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
    declarations: [
@@ -28,6 +30,7 @@ import { LogoComponent } from "./logo/logo.component";
       IntroComponent,
       SubheadingComponent,
       LogoComponent,
+      StupidHacksPresentationComponent,
    ],
    imports: [
       BrowserModule,
@@ -39,6 +42,7 @@ import { LogoComponent } from "./logo/logo.component";
       FlexLayoutModule,
       NgbModule,
       MatButtonModule,
+      HttpClientModule,
    ],
    exports: [],
    providers: [],

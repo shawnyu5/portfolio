@@ -27,6 +27,7 @@
                      "src/assets",
                      "src/_redirects",
                      "src/static-pages/stupid_hackathon_2022/presentation.html",
+                     "src/static-pages/stupid_hackathon_2022",
                      {
                         "glob": "presentation.html",
                         "input": "src/static-pages/stupid_hackathon_2022/",
