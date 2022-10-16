@@ -8,7 +8,7 @@ import { HttpClient } from "@angular/common/http";
 })
 export class StupidHacksPresentationComponent implements OnInit {
    html: string = "";
-   constructor(private http: HttpClient) { }
+   constructor(private http: HttpClient) {}
 
    ngOnInit(): void {
       this.http
