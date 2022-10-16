@@ -1,3 +1,3 @@
-[submodule "stupid_hackathon_2022"]
-	path = stupid_hackathon_2022
-	url = https://github.com/shawnyu5/stupid_hackthon_2022
+[submodule "src/static-pages/stupid_hackathon_2022"]
+	path = src/static-pages/stupid_hackathon_2022
+	url = https://github.com/shawnyu5/stupid_hackathon_2022
