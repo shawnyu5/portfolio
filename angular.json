@@ -22,7 +22,17 @@
                   "main": "src/main.ts",
                   "polyfills": "src/polyfills.ts",
                   "tsConfig": "tsconfig.app.json",
-                  "assets": ["src/favicon.ico", "src/assets", "src/_redirects"],
+                  "assets": [
+                     "src/favicon.ico",
+                     "src/assets",
+                     "src/_redirects",
+                     "src/static-pages/stupid_hackathon_2022/presentation.html",
+                     {
+                        "glob": "presentation.html",
+                        "input": "src/static-pages/stupid_hackathon_2022/",
+                        "output": "/stupid-hacks/"
+                     }
+                  ],
                   "styles": [
                      "node_modules/bootstrap/dist/css/bootstrap.min.css",
                      "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
@@ -88,7 +98,10 @@
                   "polyfills": "src/polyfills.ts",
                   "tsConfig": "tsconfig.spec.json",
                   "karmaConfig": "karma.conf.js",
-                  "assets": ["src/favicon.ico", "src/assets"],
+                  "assets": [
+                     "src/favicon.ico",
+                     "src/assets"
+                  ],
                   "styles": [
                      "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
                      "src/styles.scss"

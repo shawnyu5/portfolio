@@ -133,7 +133,7 @@
       ]
    },
    {
-      "title": "debate dragon",
+      "title": "debate dragon 1.0",
       "description": "A discord bot to burn down your debate fowls",
       "image": {
          "url": "https://cliparting.com/wp-content/uploads/2018/03/dragon-drawings-2018-19.jpg",
@@ -274,6 +274,32 @@
             "name": "Go",
             "icon": "https://support.discord.com/hc/user_images/w3-GkZneLZmfg6odFGLqoQ.png",
             "url": "https://go.dev/"
+         }
+      ]
+   },
+   {
+      "title": "Stupid ideas and shit no one needs hackathon",
+      "description": "A stupid ideas hackathon, where we built stupid ideas that no one asked for. Our team built a shock collar that will shock the user if they didn't talk enough. Check out the presentation to find out more",
+      "image": {
+         "url": "https://pbs.twimg.com/profile_images/452521148744364033/kcZTlZD9_400x400.jpeg",
+         "alt": "Stupid ideas hackthon logo"
+      },
+      "buttons": [
+         {
+            "text": "Presentation",
+            "link": "/stupid-hacks/presentation.html#1"
+         }
+      ],
+      "techonologies": [
+         {
+            "name": "Python",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+            "url": "https://www.python.org/"
+         },
+         {
+            "name": "Raspberry pi",
+            "icon": "https://elinux.org/images/thumb/c/cb/Raspberry_Pi_Logo.svg/475px-Raspberry_Pi_Logo.svg.png",
+            "url": "https://www.raspberrypi.com/for-home/"
          }
       ]
    }

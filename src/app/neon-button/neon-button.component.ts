@@ -6,13 +6,22 @@ import { Component, Input, OnInit } from "@angular/core";
    styleUrls: ["./neon-button.component.scss"],
 })
 export class NeonButtonComponent implements OnInit {
+   /**
+    * redirect link of the button upon click
+    */
    @Input()
-   redirectLink: string | undefined;
+   redirectLink: string = "";
 
+   /**
+    * Optional target of the link
+    */
    @Input()
    target: string | undefined;
 
-   constructor() { }
+   // @Input()
+   // emoji: string | undefined;
 
-   ngOnInit(): void { }
+   constructor() {}
+
+   ngOnInit(): void {}
 }

@@ -2,7 +2,7 @@ import { Component, Inject, OnInit } from "@angular/core";
 import IProject from "src/types/project";
 import { ProjectService } from "../project.service";
 import { DOCUMENT } from "@angular/common";
-import { LogoComponent, LogoText } from "src/app/logo/logo.component";
+import { LogoText } from "src/app/logo/logo.component";
 
 @Component({
    selector: "app-project",
@@ -10,7 +10,6 @@ import { LogoComponent, LogoText } from "src/app/logo/logo.component";
    styleUrls: ["./project.component.scss"],
 })
 export class ProjectComponent implements OnInit {
-   htmlString = "<h1>hello</h1>";
    /**
     * Array of projects
     */
@@ -40,4 +39,25 @@ export class ProjectComponent implements OnInit {
    get LogoText(): typeof LogoText {
       return LogoText;
    }
+
+   // generateHTMLButton(button: IProject["buttons"][0]): string {
+   // return `HELLO <i class="fa fa-github"></i>`;
+   // // let logo = new LogoComponent();
+   // // if (button.text == this.logoText.demo) {
+   // // return `<app-neon-button class="card-footer"
+   // // redirectLink="${button.link}" target="_blank">
+   // // ${button.text} <logo logoName="{{ logoText.demo }}"></logo>
+   // // </app-neon-button>`;
+   // // } else {
+   // // return `<app-neon-button class="card-footer"
+   // // redirectLink="${button.link}" target="_blank">
+   // // ELSE <i class="fa fa-github"></i>
+   // // </app-neon-button>`;
+   // // }
+
+   // // return `<app-neon-button *ngIf="button.text == logoText.demo; else elseBlock" class="card-footer"
+   // // redirectLink="{{ button.link }}" target="_blank">
+   // // HELLO <logo logoName="{{ logoText.demo }}"></logo>
+   // // </app-neon-button>`;
+   // }
 }
