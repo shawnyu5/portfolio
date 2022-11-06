@@ -112,27 +112,6 @@
       ]
    },
    {
-      "title": "DSA go brrr",
-      "description": "Common DSA structures implemented in Go, including doubly linked list, hash map, and threaded binary search tree",
-      "image": {
-         "url": "https://blog.logrocket.com/wp-content/uploads/2021/09/Comprehensive-guide-data-structures-go.jpg",
-         "alt": "data structures in Go"
-      },
-      "buttons": [
-         {
-            "text": "Github",
-            "link": "https://github.com/shawnyu5/dsa_go_brrr"
-         }
-      ],
-      "techonologies": [
-         {
-            "name": "Go",
-            "icon": "https://support.discord.com/hc/user_images/w3-GkZneLZmfg6odFGLqoQ.png",
-            "url": "https://go.dev/"
-         }
-      ]
-   },
-   {
       "title": "debate dragon 1.0",
       "description": "A discord bot to burn down your debate fowls",
       "image": {
@@ -186,6 +165,27 @@
             "name": "Discordgo",
             "icon": "https://github.com/bwmarrin/discordgo/raw/v0.26.1/docs/img/discordgo.svg",
             "url": "https://pkg.go.dev/github.com/bwmarrin/discordgo"
+         }
+      ]
+   },
+   {
+      "title": "DSA go brrr",
+      "description": "Common DSA structures implemented in Go, including doubly linked list, hash map, and threaded binary search tree",
+      "image": {
+         "url": "https://blog.logrocket.com/wp-content/uploads/2021/09/Comprehensive-guide-data-structures-go.jpg",
+         "alt": "data structures in Go"
+      },
+      "buttons": [
+         {
+            "text": "Github",
+            "link": "https://github.com/shawnyu5/dsa_go_brrr"
+         }
+      ],
+      "techonologies": [
+         {
+            "name": "Go",
+            "icon": "https://support.discord.com/hc/user_images/w3-GkZneLZmfg6odFGLqoQ.png",
+            "url": "https://go.dev/"
          }
       ]
    },
