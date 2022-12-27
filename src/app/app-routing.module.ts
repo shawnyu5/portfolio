@@ -3,10 +3,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { HomePageComponent } from "./home-page/home-page.component";
 // import { StupidHacksPresentationComponent } from "./stupid-hacks-presentation/stupid-hacks-presentation.component";
 
-const routes: Routes = [
-   { path: "", component: HomePageComponent },
-   // { path: "hacks", component: StupidHacksPresentationComponent },
-];
+const routes: Routes = [{ path: "", component: HomePageComponent }];
 
 @NgModule({
    imports: [RouterModule.forRoot(routes)],
