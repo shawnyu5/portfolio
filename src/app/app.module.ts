@@ -19,6 +19,7 @@ import { SubheadingComponent } from "./subheading/subheading.component";
 import { LogoComponent } from "./logo/logo.component";
 import { StupidHacksPresentationComponent } from "./stupid-hacks-presentation/stupid-hacks-presentation.component";
 import { HttpClientModule } from "@angular/common/http";
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
    declarations: [
@@ -31,6 +32,7 @@ import { HttpClientModule } from "@angular/common/http";
       SubheadingComponent,
       LogoComponent,
       StupidHacksPresentationComponent,
+      AuthComponent,
    ],
    imports: [
       BrowserModule,
