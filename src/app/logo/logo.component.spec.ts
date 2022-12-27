@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { GitHubLogoComponent } from "./logo.component";
+import { LogoComponent } from "./logo.component";
 
 describe("GitHubLogoComponent", () => {
-   let component: GitHubLogoComponent;
-   let fixture: ComponentFixture<GitHubLogoComponent>;
+   let component: LogoComponent;
+   let fixture: ComponentFixture<LogoComponent>;
 
    beforeEach(async () => {
       await TestBed.configureTestingModule({
-         declarations: [GitHubLogoComponent],
+         declarations: [LogoComponent],
       }).compileComponents();
    });
 
    beforeEach(() => {
-      fixture = TestBed.createComponent(GitHubLogoComponent);
+      fixture = TestBed.createComponent(LogoComponent);
       component = fixture.componentInstance;
       fixture.detectChanges();
    });
