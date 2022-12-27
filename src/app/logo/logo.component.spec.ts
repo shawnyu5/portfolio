@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { GitHubLogoComponent } from "./git-hub-logo.component";
+import { GitHubLogoComponent } from "./logo.component";
 
 describe("GitHubLogoComponent", () => {
    let component: GitHubLogoComponent;
