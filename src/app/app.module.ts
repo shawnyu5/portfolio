@@ -17,7 +17,6 @@ import { NeonButtonComponent } from "./neon-button/neon-button.component";
 import { IntroComponent } from "./intro/intro.component";
 import { SubheadingComponent } from "./subheading/subheading.component";
 import { LogoComponent } from "./logo/logo.component";
-import { StupidHacksPresentationComponent } from "./stupid-hacks-presentation/stupid-hacks-presentation.component";
 import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
@@ -30,7 +29,6 @@ import { HttpClientModule } from "@angular/common/http";
       IntroComponent,
       SubheadingComponent,
       LogoComponent,
-      StupidHacksPresentationComponent,
    ],
    imports: [
       BrowserModule,
