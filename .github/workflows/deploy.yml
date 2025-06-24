@@ -1,0 +1,24 @@
+name: Deploy to server
+on:
+  push:
+    branches:
+      - "**"
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      # - name: Deploy
+      #   run: |
+      #     echo "${{ secrets.SSH_KEY }}" > /tmp/ssh-key
+      #     chmod 600 /tmp/ssh-key
+      #     ssh -i /tmp/ssh-key actions@${{ secrets.SSH_HOST }}
+      #     rm /tmp/ssh-key
+
+      - name: Deploy
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: actions
+          script: whoami
+          key: ${{ secrets.SSH_KEY }}
